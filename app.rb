@@ -18,6 +18,11 @@ get '/named-cat' do
   erb(:index)
 end
 
+get '/cat-form' do
+  erb(:cat_form)
+
+end
+
 
 
 set :session_secret, 'super secret'
